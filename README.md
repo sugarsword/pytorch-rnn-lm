@@ -45,15 +45,16 @@ The training process can be interrupted at any time, and the best checkpoint wil
 
 Table for training parameter changes:
 
-Number of epochs    Embedding size  Hidden size Dropout     Test loss   PPL         Time
- 40                 200             200         0.5         4.66        105.69      433 sec
- 40                 100             100         0.5         4.69        108.58      228 sec
- 40                 200             200         0.6         4.67        106.58      425 sec
- 40                 300             300         0.5         4.62        101.79      714 sec
- 40                 400             400         0.5         4.63        102.32      1091 sec
- 40                 500             500         0.5         4.66        105.9       1694 sec
- 40                 300             300         0.7         4.65        104.29      777 sec
- 40                 300             300         0.4         4.65        104.39      717 sec
+| Number of epochs | Embedding size | Hidden size |  Dropout | Test loss | PPL |Time |
+|---|---|---|---|---|---|---|
+|40|200|200|0.5|4.66|105.69|433sec|
+|40|100|100|0.5|4.69|108.58|228sec|
+|40|200|200|0.6|4.67|106.58|425sec|
+|40|300|300|0.5|4.62|101.79|714sec|
+|40|400|400|0.5|4.63|102.32|1091sec|
+|40|500|500|0.5|4.66|105.9|1694sec|
+|40|300|300|0.7|4.65|104.29|777sec|
+|40|300|300|0.4|4.65|104.39|717sec|
  
 
 PPL drops as the embedding size increases from 100 to 300 but increases after 300.
