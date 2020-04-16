@@ -31,12 +31,62 @@ Download and preprocess data:
 
     ./scripts/download_data.sh
 
+Changed the script: download_data.sh and preprocessed the new dataset
+The new dataset is the collection of Bob Dylan's lyrics
+
+
 Train a model:
 
     ./scripts/train.sh
+Changed the script train.sh
+Changed parameters to find the lowest PPL
 
 The training process can be interrupted at any time, and the best checkpoint will always be saved.
+
+Table for training parameter changes:
+
+Number of epochs    Embedding size  Hidden size Dropout     Test loss   PPL         Time
+ 40                 200             200         0.5         4.66        105.69      433 sec
+ 40                 100             100         0.5         4.69        108.58      228 sec
+ 40                 200             200         0.6         4.67        106.58      425 sec
+ 40                 300             300         0.5         4.62        101.79      714 sec
+ 40                 400             400         0.5         4.63        102.32      1091 sec
+ 40                 500             500         0.5         4.66        105.9       1694 sec
+ 40                 300             300         0.7         4.65        104.29      777 sec
+ 40                 300             300         0.4         4.65        104.39      717 sec
+ 
+
+PPL drops as the embedding size increases from 100 to 300 but increases after 300.
+The best parameters are: 40-300-0.5 (Epochs-Embedding-Dropout) 
+
 
 Generate (sample) some text from a trained model with:
 
     ./scripts/generate.sh
+    
+Changed the script generate.sh
+
+output in sample:
+and the cloud is wrong . <eos> Song name : <unk> &apos; triggers Circled Till Tweedle Dum least Tweedle Dee                                                                 . <eos> There &apos;s gon one to get away now . <eos> Feel like she &apos;s gonna hot to get                                                                                any away , <eos> It was the dark same such a help jungle , <eos> It must get stoned .                                                                                       <eos> They &apos;re looking for an defeated , time you don &apos;t wanna tough the land . <eos> I didn                                                                      &apos;t understand , <eos> You &apos;re doing , I fell in the word , <eos> We really far at musta  
+
+
+and the cloud is wrong . 
+
+Song name : <unk> 'triggers Circled Till Tweedle Dum least Tweedle Dee. 
+    
+There 's gon one to get away now . 
+
+Feel like she 's gonna hot to get any away , 
+
+It was the dark same such a help jungle , 
+
+It must get stoned .
+
+They 're looking for an defeated , time you don &apos;t wanna tough the land . 
+
+I didn 't understand , 
+
+You 're doing , I fell in the word , 
+
+We really far at musta 
+
