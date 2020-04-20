@@ -73,5 +73,6 @@ and the cloud is wrong . <eos> Song name : <unk> &apos; triggers Circled Till Tw
 ----------------
 Part 2:
 1) add new script in tools/examples/word_language_model: generate_with_strategy.py
+2) change the install_packages.sh to install $examples from my fork of $examples (to get the new generate_with_strategy.py)
 2) add new bash script in scripts: generate_with_strategy.sh
 3) generated new sample with greedy strategy
