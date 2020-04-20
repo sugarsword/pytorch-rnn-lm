@@ -16,4 +16,4 @@ git clone https://github.com/bricksdont/moses-scripts $tools/moses-scripts
 
 # install pytorch examples
 
-git clone https://github.com/pytorch/examples $tools/pytorch-examples
+git clone https://github.com/sugarsword/examples $tools/pytorch-examples
