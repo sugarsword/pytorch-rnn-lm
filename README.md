@@ -76,3 +76,9 @@ Part 2:
 2) change the install_packages.sh to install $examples from my fork of $examples (to get the new generate_with_strategy.py)
 2) add new bash script in scripts: generate_with_strategy.sh
 3) generated new sample with greedy strategy
+
+the street . <eos> I &apos;m gonna <unk> , I &apos;m trying to get anywhere , <eos> I &apos;m gonna
+stop at the world , I &apos;m trying to get to be anywhere . <eos> I &apos;m going in the                                            
+morning , I &apos;m gonna go it from the land . <eos> I &apos;m going in the morning , I
+&apos;m gonna go it from the land . <eos> I &apos;m gonna <unk> , I &apos;m trying to get closer                                     
+, <eos> I &apos;m not sleepy and there is no place I &apos;m going to . <eos> Hey , Mr.
