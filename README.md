@@ -68,6 +68,7 @@ Generate (sample) some text from a trained model with:
 Changed the script generate.sh
 
 output in sample:
+
 and the cloud is wrong . <eos> Song name : <unk> &apos; triggers Circled Till Tweedle Dum least Tweedle Dee                                                                 . <eos> There &apos;s gon one to get away now . <eos> Feel like she &apos;s gonna hot to get                                                                                any away , <eos> It was the dark same such a help jungle , <eos> It must get stoned .                                                                                       <eos> They &apos;re looking for an defeated , time you don &apos;t wanna tough the land . <eos> I didn                                                                      &apos;t understand , <eos> You &apos;re doing , I fell in the word , <eos> We really far at musta  
 
 ----------------
